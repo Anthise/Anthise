@@ -53,7 +53,7 @@
 
 <h3 align="left">My Stats 🌐:</h3>
 <p align="center">
-![Anthise's GitHub stats](https://github-readme-stats.vercel.app/api?username=anthise\&rank_icon=github)
+![Anthise's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anthise\&rank_icon=github) 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anthise&layout=compact&theme=ambient_gradien" alt="Top Languages" />
 </p>
   </a> 
