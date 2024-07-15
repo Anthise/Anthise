@@ -8,7 +8,7 @@
 
 
 
-<h3 align="center">Computer Science Student 💻</h3>
+
 
 <h3 align="left">Languages:</h3>
 <p align="left"> 
