@@ -1,8 +1,11 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Anthise.Anthise" />
 
-<div style="text-align: center;">
-    <h1 href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F78CDD&background=FFFFFF00&center=true&vCenter=true&multiline=true&repeat=false&width=435&lines=Hey+%F0%9F%91%8B%2C+I'm+Anthise+%F0%9F%92%96;Computer+Science+Student+%F0%9F%92%BB" alt="Typing SVG" /></h1>
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F78CDD&background=FFFFFF00&center=true&vCenter=true&multiline=true&repeat=false&width=435&lines=Hey+%F0%9F%91%8B%2C+I'm+Anthise+%F0%9F%92%96;Computer+Science+Student+%F0%9F%92%BB" alt="Typing SVG" />
+  </a>
 </div>
+
 
 
 <h3 align="center">Computer Science Student 💻</h3>
