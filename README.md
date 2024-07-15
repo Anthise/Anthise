@@ -53,7 +53,6 @@
 
 <h3 align="left">My Stats 🌐:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anthise&show_icons=true&theme=ambient_gradient" alt="Anthise's GitHub stats" />
   <img width="390" src="https://github-readme-stats-salesp07.vercel.app/api?username=anthise&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Readme Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anthise&layout=compact&theme=ambient_gradien" alt="Top Languages" />
 </p>
