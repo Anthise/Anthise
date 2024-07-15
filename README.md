@@ -53,7 +53,7 @@
 
 <h3 align="left">My Stats 🌐:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anthise&show_icons=true&theme=dracula" alt="Anthise's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Anthise&show_icons=true&theme=ambient_gradient" alt="Anthise's GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anthise&layout=compact" alt="Top Languages" />
 </p>
   </a> 
