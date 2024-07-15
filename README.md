@@ -15,8 +15,8 @@
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
   </a>
-  <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank" rel="noreferrer"> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Assembly_language_icon.svg" alt="assembly" width="40" height="40"/> 
+  <a href="https://www.pinterest.com/pin/450289662744269419/" target="_blank" rel="noreferrer"> 
+    <img src="https://i.pinimg.com/originals/1e/7b/14/1e7b1401e9ae206f34dcbf60608d636d.png" alt="assembly" width="40" height="40"/> 
   </a> 
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
@@ -51,5 +51,13 @@
   </a>
   <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> 
     <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> 
+  </a> 
+</p>
+
+<h3 align="left">My Stats 🌐:</h3>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Anthise&show_icons=true&theme=dracula" alt="Anthise's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anthise&layout=compact" alt="Top Languages" />
+</p>
   </a> 
 </p>
