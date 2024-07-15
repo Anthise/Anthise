@@ -6,13 +6,7 @@
   </a>
 </p>
 
-
-
-
-
-
-
-<h3 align="left">Languages:</h3>
+<h3 align="left" style="color: pink;">Languages:</h3>
 <p align="left"> 
   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> 
     <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> 
@@ -37,7 +31,7 @@
   </a> 
 </p>
 
-<h3 align="left">Tools:</h3>
+<h3 align="left" style="color: pink;">Tools:</h3>
 <p align="left"> 
   <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> 
     <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> 
@@ -62,10 +56,9 @@
   </a> 
 </p>
 
-<h3 align="left">My Stats 🌐:</h3>
+<h3 align="left" style="color: pink;">My Stats 🌐:</h3>
 <p align="center">
   <img width="390" src="https://github-readme-stats-salesp07.vercel.app/api?username=anthise&count_private=true&show_icons=true&theme=dracula&rank_icon=github&border_radius=10" alt="GitHub Readme Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anthise&layout=compact&dracula" alt="Top Languages" />
 </p>
-  </a> 
-</p>
+
