@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="/static/pictures/icone.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthise.io</title>
+
+    <link rel="stylesheet" href="static/index.css">
+
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">Anthise</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#project">Project</a>
+         <!-- <a href="#language">Language</a>-->
+
+         <span class="active-nav"></span>
+         </nav>
+    </header>
+
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hello, I'm <span>Anthise</span></h1>
+        <div class="text-animate">
+            <h3>Computer Science Student</h3>
+        </div>
+        <p>I am passionate about computer science and I do a lot of projects for fun ❤️</p>
+
+        <div class="btn-box">
+            <a href="#" class="btn" id="adopt-cat-btn">Adopt a cat</a>
+            <a href="#" class="btn">Let's Talk</a>
+        </div>
+    </div>
+
+        <div class="home-sci">
+            <a href="https://github.com/Anthise"><i class='bx bxl-github'></i></a>
+            <a href="https://discord.com/"><i class='bx bxl-discord'></i></a>
+            <a href="https://be.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <div class="home-imgHover"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About<span>Me</span></h2>
+        <!-- Content for the About section -->
+         <div class="about-img">
+            <img src="/static/pictures/icone.png" alt="">
+            <span class="heart-spin"></span>
+         </div>
+         <div class="about-content">
+            <h3>Computer Science Student</h3>
+            <p>My name is Anthise, the creator behind every line of code for this website. Welcome to my world where creativity meets cutting-edge technology 🐱 </p>
+            <div class="btn-box btns">
+              <a href="#project" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Project Section -->
+    <section class="project" id="project">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        
+        <!-- Project Container -->
+        <div class="project-container">
+            <!-- First picture -->
+            <div class="project-box">
+                <img src="/static/pictures/to_do_list.jpeg" alt="">
+                <div class="project-layer">
+                    <h4>To-do List</h4>
+                    <p>2024</p>
+                    <p>Dev application with Android Studio</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- Second picture -->
+            <div class="project-box">
+                <img src="/static/pictures/icone.png" alt="">
+                <div class="project-layer">
+                    <h4>Next Project</h4>
+                    <p>2024</p>
+                    <p>Download....</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- Third picture -->
+            <div class="project-box">
+                <img src="/static/pictures/icone.png" alt="">
+                <div class="project-layer">
+                    <h4>Next Project</h4>
+                    <p>2024</p>
+                    <p>Download....</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Anthise</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <!--Js section-->
+    <script>
+        // Menu icon toggle and navigation scroll behavior
+        let menuIcon = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+        let navLinks = document.querySelectorAll('header nav a');
+    
+        // Toggle menu on icon click
+        menuIcon.onclick = () => {
+            menuIcon.classList.toggle('bx-x');
+            navbar.classList.toggle('active');
+        };
+    
+        // Scroll event for activating links and sticky header
+        window.onscroll = () => {
+            let scrollY = window.scrollY;
+            let sections = document.querySelectorAll('section');
+    
+            sections.forEach(sec => {
+                let offset = sec.offsetTop - 100;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id');
+    
+                if (scrollY >= offset && scrollY < offset + height) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                    });
+    
+                    document.querySelector(`header nav a[href="#${id}"]`).classList.add('active');
+                }
+            });
+    
+            // Sticky header
+            let header = document.querySelector('header');
+            header.classList.toggle('sticky', scrollY > 100);
+        };
+    
+        // Remove toggle icon and collapse navbar when a navbar link is clicked
+        navLinks.forEach(link => {
+            link.onclick = () => {
+                menuIcon.classList.remove('bx-x');
+                navbar.classList.remove('active');
+            };
+        });
+    </script>
+    
+  
+</body>
+</html>
